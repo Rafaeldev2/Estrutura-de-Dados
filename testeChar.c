@@ -2,11 +2,27 @@
 
 int main(){
 
-    char a = 1;
-    char b = 54;
+    char a;
+    char b;
 
-    printf("Valor de a = %d\n  %d\n  e valor de a vezes o b = %d\n", A, B, A * B);
-    printf("Valor de b = %d\n  %d\n  e valor de a vezes o b = %d\n", A, B, A * B);
-    printf("Valor de a = %d\n  %d\n  e valor de a vezes o b = %d\n", A, B, A * B);
-    printf("Valor de b = %d\n  %d\n  e valor de a vezes o b = %d\n", A, B, A * B);
+    a = 1;
+    b = 1;
+
+    printf("Inteiro = [%d]\n  char = [%c]\n", a, b);
+
+    a = 54;
+    b = 54;
+
+    printf("Inteiro = [%d]\n  char = [%c]\n", a, b);
+    
+    a = 65;
+    b = 65;
+
+    printf("Inteiro = [%d]\n  char = [%c]\n", a, b);
+    a = 98;
+    b = 98;
+
+    printf("Inteiro = [%d]\n  char = [%c]\n", a, b);
+
+
 }
